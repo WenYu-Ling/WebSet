@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="多帕-Topa1120的官方粉絲網站，提供最新直播資訊和相關消息">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="VTuber, Topa1120, 多帕, 直播, 實況">
+    <title>多帕-Topa1120</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="appearance.css"></script>
+    <link rel="stylesheet" href="appearance.css">
+    <script src="statsManager.js" defer></script>
+    <script src="youtubeTracker.js" defer></script>
+    <script src="twitchTracker.js" defer></script>
+    <script src="main.js"></script>
+    <script src="config.js"></script>
+    <header>
+        <nav aria-label="navigation">
+            <h1>多帕</h1>
+            <button class="mobile-menu-toggle" aria-label="menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul role="menubar">
+                <li role="none"><a href="#about" role="menuitem">關於</a></li>
+                <li role="none"><a href="#schedule" role="menuitem">周表</a></li>
+                <li role="none"><a href="#social" role="menuitem">社群媒體</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <!-- <h2>歡迎來到VTuber的粉絲網站</h2>
+            <p>在這裡可以找到最新的直播資訊和相關消息！</p> -->
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>Twitch</h3>
+                    <p id="twitch-followers">載入中...</p>
+                </div>
+                <div class="stat-item">
+                    <h3>YouTube</h3>
+                    <p id="youtube-subscribers">載入中...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="content">
+        <section id="about" class="section">
+            <h2>關於多帕</h2>
+            <p>食肉目，犬科，犬屬，犬種....以下省略一萬字</p>
+            <a href="https://youtu.be/fLd855-q8lY?si=lf8E2wpgo6Q-zqWy">有興趣的話就來看看吧</a>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>週表</h2>
+            <div class="stream-schedule">
+                <!-- <img src="schedule.png" alt="直播週表" class="schedule-image"> -->
+                <!-- <div class="schedule-item"><h2>全突發！</h2></div> -->
+            </div>
+        </section>
+
+        <section id="social" class="section">
+            <h2>社群媒體</h2>
+            <div class="social-links">
+                <a href="https://x.com/topa1120" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.twitch.tv/topa_1120" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.youtube.com/@Topa1120.channel" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VTuber Fan Page. All rights reserved | 此網頁為粉絲專頁，與多帕(topa)無任何直接關係.</p>
+    </footer>
+</body>
+</html>

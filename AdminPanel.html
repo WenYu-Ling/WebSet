@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="多帕-Topa1120的管理後台">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多帕-Topa1120 管理後台</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="appearance.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="navigation">
+            <h1>多帕後台管理</h1>
+            <button class="mobile-menu-toggle" aria-label="menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul role="menubar">
+                <li role="none"><a href="#schedule" role="menuitem">周表管理</a></li>
+                <li role="none"><a href="#settings" role="menuitem">設定</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="schedule" class="section">
+            <h2>週表管理</h2>
+            <div class="admin-controls">
+                <div class="control-item">
+                    <label for="sudden-stream">
+                        <input type="checkbox" id="sudden-stream" name="sudden-stream">
+                        全突發直播
+                    </label>
+                </div>
+                <div class="control-item">
+                    <button id="save-settings" class="btn-primary">儲存設定</button>
+                </div>
+            </div>
+            <div class="current-schedule">
+                <h3>目前週表</h3>
+                <div id="schedule-preview">載入中...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VTuber Fan Page Admin Panel. All rights reserved.</p>
+    </footer>
+    <script src="admin.js"></script>
+</body>
+</html>
