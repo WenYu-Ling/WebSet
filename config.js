@@ -1,7 +1,7 @@
 // config.js
 const TWITCH_CONFIG = {
     CLIENT_ID: "sstccvdrvz5s99hew0w2nmdfrquv7x",
-    CLIENT_SECRET: "j3uw56h3y6hquo54ebtfth9yac4yiy",
+    CLIENT_SECRET: "6exm98t49212uwwadnd8xlfj07gsnc",
     USERNAME: "topa_1120",
     UPDATE_INTERVAL: 12 * 60 * 60 * 1000
 };

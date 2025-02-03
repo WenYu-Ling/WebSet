@@ -7,6 +7,7 @@ class YouTubeTracker {
 
         this.statsManager = new StatsManager('youtube_stats');
         this.element = document.getElementById('youtube-subscribers');
+        this.statsManager = new StatsManager('youtube');
     }
 
     async fetchSubscribers() {
